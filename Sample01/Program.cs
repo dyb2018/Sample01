@@ -34,7 +34,10 @@ namespace Sample01
                 var env = hostingContent.HostingEnvironment;
 
                 config.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
-                .AddJsonFile($"appsettings.{env.EnvironmentName}.json")
-            });
+                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true, reloadOnChange: true)
+                .AddJsonFile("Content.json", optional: false, reloadOnChange: true)
+                .AddEnvironmentVariables();
+            })
+            .UseStartup<Startup>();
     }
 }
