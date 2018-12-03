@@ -13272,11 +13272,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\Sample01\\Sample01\\Sample01.csproj",
+      "projectUniqueName": "E:\\workspace\\Github\\Sample\\Sample01\\Sample01\\Sample01.csproj",
       "projectName": "Sample01",
-      "projectPath": "C:\\Users\\Administrator\\source\\repos\\Sample01\\Sample01\\Sample01.csproj",
+      "projectPath": "E:\\workspace\\Github\\Sample\\Sample01\\Sample01\\Sample01.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\source\\repos\\Sample01\\Sample01\\obj\\",
+      "outputPath": "E:\\workspace\\Github\\Sample\\Sample01\\Sample01\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
