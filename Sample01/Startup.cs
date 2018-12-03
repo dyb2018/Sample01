@@ -30,7 +30,7 @@ namespace Sample01
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            services.Configure<Models.Content>(Configuration.GetSection("Content"));//注册TOption实例对象
+            services.Configure<Models.Content>(Configuration.GetSection("ContentList"));//注册TOption实例对象
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
